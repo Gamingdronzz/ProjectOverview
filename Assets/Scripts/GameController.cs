@@ -2,15 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameController : MonoBehaviour {
+public class GameController : MonoBehaviour
+{
+    private GameObject CurrentGO = null;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    // Use this for initialization
+    private void Start()
+    {
+    }
+
+    // Update is called once per frame
+    private void Update()
+    {
+        DetectCollisionWithBuilding();
+    }
+
+    private void DetectCollisionWithBuilding()
+    {
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -18,9 +26,11 @@ public class GameController : MonoBehaviour {
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
-                if (hit.collider.gameObject.tag.Equals("Buildings"))
+                if (hit.collider.gameObject.tag.Equals(MyTagManager.Instance.Building))
                 {
-                    Debug.Log("Building clicked");
+                    CurrentGO = hit.collider.gameObject;
+
+                    Debug.Log("Building clicked " + CurrentGO.name + " Type = " + CurrentGO.GetComponent<Building>().buildingType.ToString());
                 }
             }
         }
