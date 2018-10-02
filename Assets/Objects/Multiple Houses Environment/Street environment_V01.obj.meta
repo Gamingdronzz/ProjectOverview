@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: e4cf90285df6fd64ea272da2969a952b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: City_building_001
+    100002: City_building_004
+    100004: City_building_007
+    100006: City_building_008
+    100008: City_building_010
+    100010: City_building_011
+    100012: City_building_013
+    100014: City_building_014
+    100016: City_building_016
+    100018: City_building_017
+    100020: City_building_022
+    100022: City_building_023
+    100024: City_building_024
+    100026: City_building_026
+    100028: City_building_028
+    100030: City_building_030
+    100032: City_building_031
+    100034: City_building_032
+    100036: City_building_033
+    100038: City_building_034
+    100040: City_building_035
+    100042: City_building_036
+    100044: City_building_037
+    100046: City_building_038
+    100048: City_building_039
+    100050: City_building_040
+    100052: City_building_041
+    100054: Line002
+    100056: Object010
+    100058: Plane001
+    100060: //RootNode
+    400000: City_building_001
+    400002: City_building_004
+    400004: City_building_007
+    400006: City_building_008
+    400008: City_building_010
+    400010: City_building_011
+    400012: City_building_013
+    400014: City_building_014
+    400016: City_building_016
+    400018: City_building_017
+    400020: City_building_022
+    400022: City_building_023
+    400024: City_building_024
+    400026: City_building_026
+    400028: City_building_028
+    400030: City_building_030
+    400032: City_building_031
+    400034: City_building_032
+    400036: City_building_033
+    400038: City_building_034
+    400040: City_building_035
+    400042: City_building_036
+    400044: City_building_037
+    400046: City_building_038
+    400048: City_building_039
+    400050: City_building_040
+    400052: City_building_041
+    400054: Line002
+    400056: Object010
+    400058: Plane001
+    400060: //RootNode
+    2100000: City_building_001Mat
+    2100002: City_building_004Mat
+    2100004: City_building_007Mat
+    2100006: City_building_008Mat
+    2100008: City_building_010Mat
+    2100010: City_building_011Mat
+    2100012: City_building_013Mat
+    2100014: City_building_014Mat
+    2100016: City_building_016Mat
+    2100018: City_building_017Mat
+    2100020: City_building_022Mat
+    2100022: City_building_023Mat
+    2100024: City_building_024Mat
+    2100026: City_building_026Mat
+    2100028: City_building_028Mat
+    2100030: City_building_030Mat
+    2100032: City_building_031Mat
+    2100034: City_building_032Mat
+    2100036: City_building_033Mat
+    2100038: City_building_034Mat
+    2100040: City_building_035Mat
+    2100042: City_building_036Mat
+    2100044: City_building_037Mat
+    2100046: City_building_038Mat
+    2100048: City_building_039Mat
+    2100050: City_building_040Mat
+    2100052: City_building_041Mat
+    2100054: Line002Mat
+    2100056: Object010Mat
+    2100058: Plane001Mat
+    2300000: City_building_001
+    2300002: City_building_004
+    2300004: City_building_007
+    2300006: City_building_008
+    2300008: City_building_010
+    2300010: City_building_011
+    2300012: City_building_013
+    2300014: City_building_014
+    2300016: City_building_016
+    2300018: City_building_017
+    2300020: City_building_022
+    2300022: City_building_023
+    2300024: City_building_024
+    2300026: City_building_026
+    2300028: City_building_028
+    2300030: City_building_030
+    2300032: City_building_031
+    2300034: City_building_032
+    2300036: City_building_033
+    2300038: City_building_034
+    2300040: City_building_035
+    2300042: City_building_036
+    2300044: City_building_037
+    2300046: City_building_038
+    2300048: City_building_039
+    2300050: City_building_040
+    2300052: City_building_041
+    2300054: Line002
+    2300056: Object010
+    2300058: Plane001
+    3300000: City_building_001
+    3300002: City_building_004
+    3300004: City_building_007
+    3300006: City_building_008
+    3300008: City_building_010
+    3300010: City_building_011
+    3300012: City_building_013
+    3300014: City_building_014
+    3300016: City_building_016
+    3300018: City_building_017
+    3300020: City_building_022
+    3300022: City_building_023
+    3300024: City_building_024
+    3300026: City_building_026
+    3300028: City_building_028
+    3300030: City_building_030
+    3300032: City_building_031
+    3300034: City_building_032
+    3300036: City_building_033
+    3300038: City_building_034
+    3300040: City_building_035
+    3300042: City_building_036
+    3300044: City_building_037
+    3300046: City_building_038
+    3300048: City_building_039
+    3300050: City_building_040
+    3300052: City_building_041
+    3300054: Line002
+    3300056: Object010
+    3300058: Plane001
+    4300000: City_building_001
+    4300002: City_building_004
+    4300004: City_building_007
+    4300006: City_building_008
+    4300008: City_building_010
+    4300010: City_building_011
+    4300012: City_building_013
+    4300014: City_building_014
+    4300016: City_building_016
+    4300018: City_building_017
+    4300020: City_building_022
+    4300022: City_building_023
+    4300024: City_building_024
+    4300026: City_building_026
+    4300028: City_building_028
+    4300030: City_building_030
+    4300032: City_building_031
+    4300034: City_building_032
+    4300036: City_building_033
+    4300038: City_building_034
+    4300040: City_building_035
+    4300042: City_building_036
+    4300044: City_building_037
+    4300046: City_building_038
+    4300048: City_building_039
+    4300050: City_building_040
+    4300052: City_building_041
+    4300054: Line002
+    4300056: Object010
+    4300058: Plane001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_001Mat
+    second: {fileID: 2100000, guid: 6babbb548c8858042ac611c55c7b98a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_004Mat
+    second: {fileID: 2100000, guid: 1bf5d0791f3c2bc488ada318efc3a0ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_007Mat
+    second: {fileID: 2100000, guid: ec0e7223bdfb40644b6c907ab805a857, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_008Mat
+    second: {fileID: 2100000, guid: 35ed4133750f85348947afa7ae973dd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_010Mat
+    second: {fileID: 2100000, guid: 22c98eabdc7ab424aa273bebf755e939, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_011Mat
+    second: {fileID: 2100000, guid: a2da47c27fe517d49a1fe51a916cf5b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_013Mat
+    second: {fileID: 2100000, guid: 39dd84b9d6bfe2741b07a4524cdea622, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_014Mat
+    second: {fileID: 2100000, guid: 77c7b66c43a81cc44aa85b60a90d4fa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_016Mat
+    second: {fileID: 2100000, guid: bcef83deeff84eb4a9092a6e11270aa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_017Mat
+    second: {fileID: 2100000, guid: 424df5f748608e2418b74459b4f29bd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_022Mat
+    second: {fileID: 2100000, guid: 70fbb61a46849fe49893013378a69234, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_023Mat
+    second: {fileID: 2100000, guid: 815f2a0a63d70f847a628e8f08c38089, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_024Mat
+    second: {fileID: 2100000, guid: 5acbb7f2d507de048a619a0a721c5176, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_026Mat
+    second: {fileID: 2100000, guid: 19d15615284d8694e8c46a01261bbf14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_028Mat
+    second: {fileID: 2100000, guid: 1e7a591979ce6a9439a05a0dd49b96b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_030Mat
+    second: {fileID: 2100000, guid: 531e2a8a7aa8a854e951883c7e62fcee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_031Mat
+    second: {fileID: 2100000, guid: 7b2b4efce6e5a794f9960d8a767a8a04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_032Mat
+    second: {fileID: 2100000, guid: 1ee5efc673e755f4aa3c8839315bd560, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_033Mat
+    second: {fileID: 2100000, guid: c4ddebc642a822c4cad0d038bd241eb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_034Mat
+    second: {fileID: 2100000, guid: 6873bf8f987c07f4781ade0b834080f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_035Mat
+    second: {fileID: 2100000, guid: 829a536032e504e459ac97875dac3e5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_036Mat
+    second: {fileID: 2100000, guid: a7dff00c281217e4f9e7c554def605e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_037Mat
+    second: {fileID: 2100000, guid: a47670a1f7c1f4c4fa5d0b10dcad390a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_038Mat
+    second: {fileID: 2100000, guid: 0d3e8dde6d2ed774cbb07c4506a377c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_039Mat
+    second: {fileID: 2100000, guid: 4c6bab8f6bf03354c8d079c36c1ecfd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_040Mat
+    second: {fileID: 2100000, guid: 87fda0ca9532c9c43a7ec956e338fa83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_building_041Mat
+    second: {fileID: 2100000, guid: 4d8434b3f45c66d4abc24f6415317229, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line002Mat
+    second: {fileID: 2100000, guid: da504f089462dd2498c892c8960879c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object010Mat
+    second: {fileID: 2100000, guid: 8e528ecf699b3bf458411a8fe62e9472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane001Mat
+    second: {fileID: 2100000, guid: fff383447ca0f504f88946e6f492b892, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
