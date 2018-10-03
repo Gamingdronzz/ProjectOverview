@@ -29,8 +29,8 @@ public class GameController : MonoBehaviour
                 if (hit.collider.gameObject.tag.Equals(MyTagManager.Instance.Building))
                 {
                     CurrentGO = hit.collider.gameObject;
-
                     Debug.Log("Building clicked " + CurrentGO.name + " Type = " + CurrentGO.GetComponent<Building>().buildingType.ToString());
+                    CurrentGO.GetComponent<Building>().ShowBuildingProperties();
                 }
             }
         }

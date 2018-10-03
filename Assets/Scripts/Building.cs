@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Building : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class Building : MonoBehaviour
     public BuildingType buildingType;
     public GameObject BillBoard;
     public Sprite BuildingIcon;
+    public TextMeshProUGUI txtBuildingType;
     private Image icon;
 
     private void Start()
@@ -28,11 +30,14 @@ public class Building : MonoBehaviour
         this.tag = MyTagManager.Instance.Building;
         Instantiate(BillBoard, transform);
         icon = transform.GetChild(0).GetChild(0).GetComponent<Image>();
+        txtBuildingType = transform.GetChild(0).GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>();
+        txtBuildingType.enabled = false;
         icon.sprite = BuildingIcon;
     }
 
-    // Update is called once per frame
-    private void Update()
+    public void ShowBuildingProperties()
     {
+        txtBuildingType.text = buildingType.ToString();
+        txtBuildingType.enabled = true;
     }
 }
