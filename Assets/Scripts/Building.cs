@@ -43,4 +43,5 @@ public class Building : MonoBehaviour
         txtBuildingType.text = buildingType.ToString();
         txtBuildingType.enabled = IsClicked;
     }
+
 }
