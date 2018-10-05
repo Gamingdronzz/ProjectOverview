@@ -6,6 +6,8 @@ using TMPro;
 
 public class Building : MonoBehaviour
 {
+    private bool IsClicked = false;
+
     // Use this for initialization
     public enum BuildingType
     {
@@ -37,7 +39,8 @@ public class Building : MonoBehaviour
 
     public void ShowBuildingProperties()
     {
+        IsClicked = !IsClicked;
         txtBuildingType.text = buildingType.ToString();
-        txtBuildingType.enabled = true;
+        txtBuildingType.enabled = IsClicked;
     }
 }
