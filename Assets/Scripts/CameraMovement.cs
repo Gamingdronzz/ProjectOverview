@@ -31,15 +31,15 @@ public class CameraMovement : MonoBehaviour
         {
             camPos.x += speed * Time.deltaTime;
         }
-        else if (Input.mousePosition.x < MovementMarginWidth)
+        if (Input.mousePosition.x < MovementMarginWidth)
         {
             camPos.x -= speed * Time.deltaTime;
         }
-        else if (Input.mousePosition.y > screenHeight - MovementMarginHeight)
+        if (Input.mousePosition.y > screenHeight - MovementMarginHeight)
         {
             camPos.z += speed * Time.deltaTime;
         }
-        else if (Input.mousePosition.y < MovementMarginHeight)
+        if (Input.mousePosition.y < MovementMarginHeight)
         {
             camPos.z -= speed * Time.deltaTime;
         }
