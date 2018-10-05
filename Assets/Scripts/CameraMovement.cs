@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,6 +11,7 @@ public class CameraMovement : MonoBehaviour
     private int screenHeight;
     public int MovementMarginWidth = 30;
     public int MovementMarginHeight = 30;
+    public int ZoomingFactor = 2;
 
     private void Start()
     {
@@ -22,6 +24,13 @@ public class CameraMovement : MonoBehaviour
     private void Update()
     {
         MoveCam();
+        ZoomInZoomOut();
+    }
+
+    private void ZoomInZoomOut()
+    {
+        if (Input.mouseScrollDelta.y != 0.0f)
+            Camera.main.fieldOfView -= Input.mouseScrollDelta.y * ZoomingFactor;
     }
 
     private void MoveCam()
